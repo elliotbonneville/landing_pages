@@ -2,7 +2,7 @@
 import { jsx, Box } from 'theme-ui';
 import Head from 'next/head';
 
-import Header from '../src/components/Header';
+import Pitch from '../src/components/Pitch';
 import Footer from '../src/components/Footer';
 
 const Home = (): React.ReactElement => {
@@ -26,8 +26,7 @@ const Home = (): React.ReactElement => {
           }}
         />
       </Head>
-      <Header />
-      <Box sx={{ flex: 1 }}>Hello World</Box>
+      <Pitch />
       <Footer />
     </>
   );
